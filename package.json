@@ -1,0 +1,20 @@
+{
+  "name": "assignment10",
+  "version": "1.0.0",
+  "description": "docker run --rm -p 13579:8080 taislu92503/edureka-nodejs-assignment-m10",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "docker"
+  ],
+  "author": "Akash Batabyal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
